@@ -1,0 +1,92 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+header{
+    margin-top: 5%;
+    margin-bottom: -2.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align:start;
+}
+
+header h1{
+text-align: start;
+font-size: 50px;
+}
+
+ nav{
+    position: absolute;
+    top: 17%;
+    left:74%;   
+}
+
+nav a{
+  
+    background-color: mediumblue;
+    font-family: sans-serif;
+    display:inline-block;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#button{
+    background-color: green;
+}
+
+.image1 img{
+    display: inline-block;
+    width: 80%;
+    height: 40vh;
+    margin-top:2.5rem;
+    margin-bottom: -0.2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+main h2{
+    font-size: 26px;
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#logo{
+    width: 7%;
+    height: 7%;
+    padding: 5% 3% 5% ;
+    
+   
+}
+
+.details{
+   padding-top: 4%;
+   height: 90%;
+   width: 90%;
+
+}
+.details h3{
+    padding-top: 1rem;
+}
+.details p{
+    padding-top: 1rem;
+    padding-right: 30%;
+    text-align: start;
+}

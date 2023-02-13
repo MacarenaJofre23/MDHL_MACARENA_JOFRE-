@@ -1,0 +1,104 @@
+*{ 
+     margin: 0;
+    padding: 0;
+    }
+    
+    header{
+        margin-top: 5%;
+        margin-bottom: -2.5rem;
+        margin-left: 5%;
+        text-align:start;
+    }
+    
+    header h1{
+    text-align: start;
+    color:black;
+    margin: 1rem;
+    transition: transform 3s;
+    }
+
+    header:hover h1{
+        transform: translate(200px) ;
+    }
+
+     nav{
+        position: absolute;
+        top: 14%;
+        left: 70%;
+    }
+    
+    nav a{
+      
+        background-color:chocolate;
+        font-family: sans-serif;
+        display:inline-block;
+        padding: 12px;
+        text-decoration: none;
+        color: white;
+        margin-right: 0.3rem;
+        border-radius: 1rem;
+    
+    }
+    a:hover{
+        transform: scale(1.1)  skew(20deg);
+    }
+   
+    
+    #button{
+        background-color:rgb(29, 117, 115);
+    }
+    body{
+        background-color:burlywood;
+    }
+    .image1 img{
+        display: inline-block;
+        width: 90%;
+        height: 50vh;
+        margin-top:2.5rem;
+        margin-bottom: -0.3rem;
+       margin-left: 5%;
+       margin-right: 5%;
+    }
+    
+    
+    main h2{
+        color: white;
+        background-color:chocolate;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .container{
+        width: 100%;
+        height: 100%;
+        display: inline-flex;
+    }
+    #logo{
+        width: 10%;
+        height: 10%;
+        padding: 7%;
+        transition: transform 5s;
+    }
+    #logo:hover{
+        transform: translateY(50px)  skew(20deg);
+       
+    }
+    
+    .details{
+      padding-top: 8%;
+      height: 90%;
+      width: 90%;
+    
+    }
+    body h3{
+        color: black;
+        text-align: start;
+    }
+    .details p{
+        padding: 1.5%;
+        margin-right: 5%;
+        text-align: start;
+        color: black;
+    }
