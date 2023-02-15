@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+
+}
+header{
+    padding: 1%;
+    margin: 3% 15% 2% 8%;
+}
+header h1 {
+    width: 80%;
+    text-align: start;
+
+}
+header dt{
+    color: white;
+    background-color:chocolate;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+header dd{
+    font-size: 21px;
+}
+.title {
+        padding: 1%;
+        margin: 3% 15% 0% 8%;
+    }
+
+
+.title dt,dd {
+    margin-top: 1rem;
+    text-align: center;
+
+}
+
+nav {
+    position: absolute;
+    top: 14%;
+    left: 60%;
+}
+
+nav a {
+    text-align: center;
+    background-color: chocolate;
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0.3rem;
+    border-radius: 1rem;
+
+}
+a:hover{
+    transform: scale(1.1)  skew(20deg);
+}
+
+
+#button{
+    background-color:rgb(29, 117, 115);
+}
+
+main {
+
+    margin: 10px;
+
+    display: flex;
+}
+.box-one {
+    flex-direction:column-reverse;
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 5%;
+    margin: 2% 12% 2% 5%;
+}
+.box-one dd, dt{
+font-size: 20px;
+}
+
+.box-two {
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 3%;
+    margin: 2% 12% 2% 5%;
+}
+.box-two h1{
+font-size: 20px;
+}
+.box-two h1, li, h3{
+    font-size: 20px;
+    }
+
+.box-tree {
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 3%;
+    margin: 2% 12% 2% 5%;
+   
+}
+.box-tree dd, dt{
+    font-size: 20px;
+    }
+dt {
+    font-weight: bold;
+}
+
+.box-tree dd {
+    padding-right: 1rem;
+    text-align: start;
+}
+.box-tree li{
+list-style-type: circle;
+}

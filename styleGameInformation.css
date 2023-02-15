@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: burlywood;
+}
+
+header {
+    margin-top: 5%;
+    margin-bottom: -2.5rem;
+    margin-left: 5%;
+    text-align: center;
+}
+
+header h1,
+h2 {
+    margin: 1rem;
+
+}
+header h3{
+    color: white;
+    background-color:chocolate;
+    margin-left: 8%;
+    margin-right: 15%;
+    text-align: center;
+    padding: 1rem;
+}
+nav {
+    position: absolute;
+    top: 3%;
+    left: 55%;
+}
+nav a{
+      
+    background-color:chocolate;
+    font-family: sans-serif;
+    display:inline-block;
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    margin-right: 0.3rem;
+    border-radius: 1rem;
+
+}
+a:hover{
+    transform: scale(1.1)  skew(20deg);
+}
+
+#button{
+    background-color:rgb(29, 117, 115);
+}
+table{
+    margin: 5% 10%  5% 10%;
+    width: 80%;
+    height: 30%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: darkgoldenrod;
+
+}
+.information{
+    font-size: 22px;
+    margin-left: 8%;
+    margin-right: 15%;
+    text-align: start;
+    padding: 1rem;
+}
+.information p{
+    margin: 1rem;
+}
+
+th{
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+td
+ {
+    text-align: center;
+    color: white;
+    padding: 10px;
+   
+  
+}
