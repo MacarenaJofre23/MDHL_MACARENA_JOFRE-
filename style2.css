@@ -2,12 +2,16 @@
      margin: 0;
     padding: 0;
     }
-    
+    body{
+        background-color: whitesmoke;
+        width: 100%;
+        height: 100%;
+
+    }
     header{
-        margin-top: 5%;
-        margin-bottom: -2.5rem;
-        margin-left: 5%;
-        text-align:start;
+        display: flex;
+        flex-direction: column;
+        margin: 5% 0 -2.5rem 5%;
     }
     
     header h1{
@@ -21,24 +25,26 @@
         transform: translate(200px) ;
     }
 
-     nav{
+    nav {
+        display:flex;
         position: absolute;
-        top: 14%;
-        left: 60%;
+        top: 1%;
+        left: 50%;
     }
     
-    nav a{
-      
+    nav a {
+        text-align: center;
         background-color:chocolate;
         font-family: sans-serif;
-        display:inline-block;
-        padding: 12px;
+        flex-direction: row;
+        padding: 10px;
         text-decoration: none;
         color: white;
-        margin-right: 0.3rem;
+        margin: 0.3rem 0 0 0.3rem;
         border-radius: 1rem;
     
     }
+    
     a:hover{
         transform: scale(1.1)  skew(20deg);
     }
@@ -47,25 +53,23 @@
     #button{
         background-color:rgb(29, 117, 115);
     }
-    body{
-        background-color:burlywood;
+ 
+    main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
-    .image1 img{
-        display: inline-block;
+    .image1 img{   
         width: 90%;
         height: 50vh;
-        margin-top:2.5rem;
-        margin-bottom: -0.3rem;
-       margin-left: 5%;
-       margin-right: 5%;
+        margin:4% 5% -0.3% 5%;
+       
     }
-    
     
     main h2{
         color: white;
         background-color:chocolate;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin:0 5% 0 5%;
         text-align: center;
         padding: 1rem;
     }

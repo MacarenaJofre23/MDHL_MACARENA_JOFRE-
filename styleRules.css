@@ -2,110 +2,125 @@
     margin: 0;
     padding: 0;
 }
-body {
-    width: 100%;
-    height: 100%;
-    background-color: burlywood;
 
+body {
+    width: 80;
+    background-color: whitesmoke;
 }
-header{
-    padding: 1%;
-    margin: 3% 15% 2% 8%;
+
+header {
+    width: 100%;
 }
+
 header h1 {
-    width: 80%;
+    margin: 1rem 1rem 1rem 1rem;
+    width: 100%;
     text-align: start;
 
 }
-header dt{
+
+header dt {
     color: white;
-    background-color:chocolate;
+    background-color: chocolate;
     width: 100%;
     text-align: center;
     padding: 1rem;
 }
-header dd{
+
+header dd {
     font-size: 21px;
 }
+
 .title {
-        padding: 1%;
-        margin: 3% 15% 0% 8%;
-    }
+    width: 100%;
+}
 
 
-.title dt,dd {
+.title dt,
+dd {
+    width: 100%;
     margin-top: 1rem;
     text-align: center;
 
 }
 
 nav {
+    display:flex;
     position: absolute;
-    top: 14%;
-    left: 60%;
+    top: 1%;
+    left: 50%;
 }
 
 nav a {
     text-align: center;
-    background-color: chocolate;
+    background-color:chocolate;
     font-family: sans-serif;
-    display: inline-block;
+    flex-direction: row;
     padding: 10px;
     text-decoration: none;
     color: white;
-    margin-bottom: 0.3rem;
+    margin: 0.3rem 0 0 0.3rem;
     border-radius: 1rem;
 
 }
-a:hover{
-    transform: scale(1.1)  skew(20deg);
+
+
+a:hover {
+    transform: scale(1.1) skew(20deg);
 }
 
 
-#button{
-    background-color:rgb(29, 117, 115);
+#button {
+    background-color: rgb(29, 117, 115);
 }
 
 main {
-
-    margin: 10px;
-
     display: flex;
+    flex-direction: column;
 }
+
 .box-one {
-    flex-direction:column-reverse;
-    background-color: bisque;
-    border-radius: 15px;
+    background-color: rgb(241, 211, 189);
+    border-radius: 30px;
     padding: 5%;
-    margin: 2% 12% 2% 5%;
+    margin: 2% 2% 2% 2%;
 }
-.box-one dd, dt{
-font-size: 20px;
+
+.box-one dd,
+dt {
+    font-size: 20px;
 }
 
 .box-two {
-    background-color: bisque;
-    border-radius: 15px;
-    padding: 3%;
-    margin: 2% 12% 2% 5%;
+    background-color: rgb(241, 211, 189);
+    border-radius: 30px;
+    padding: 5%;
+    margin: 2% 2% 2% 2%;
 }
-.box-two h1{
-font-size: 20px;
-}
-.box-two h1, li, h3{
+
+.box-two h1 {
     font-size: 20px;
-    }
+}
+
+.box-two h1,
+li,
+h3 {
+    font-size: 20px;
+}
 
 .box-tree {
     background-color: bisque;
-    border-radius: 15px;
-    padding: 3%;
-    margin: 2% 12% 2% 5%;
-   
+    border-radius: 30px;
+    padding: 5%;
+    margin: 2% 2% 2% 2%;
+
 }
-.box-tree dd, dt{
+
+.box-tree dd,
+dt {
     font-size: 20px;
-    }
+}
+
 dt {
     font-weight: bold;
 }
@@ -114,6 +129,7 @@ dt {
     padding-right: 1rem;
     text-align: start;
 }
-.box-tree li{
-list-style-type: circle;
+
+.box-tree li {
+    list-style-type: circle;
 }
